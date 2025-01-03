@@ -1,0 +1,189 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+header { 
+    background-color: white;
+    text-align: center;
+    padding: 14px;
+    margin: 5px;
+}
+
+header nav ul li { 
+    display: inline;
+    margin: 5px;
+    color: black; 
+}
+
+.apple li i{ 
+    width: 5px;
+    height: 5px;
+    color: blue;
+
+}
+.main {
+    width: 100%;
+    height: 750px;
+    background-color: black; 
+    color: white;
+}
+
+h1{ 
+   text-align: center;
+}
+h2{ 
+   text-align: center;
+}
+.link{ 
+    text-align: center;
+    padding: 20px;
+}
+
+.link a { 
+    margin-top: 12px;  
+}
+.link a :hover{ 
+    cursor: pointer;
+}
+.photo img{
+    height: 600px; 
+    display: flex;
+    width: 45%;
+    position: sticky;
+    top: 45%;
+    left: 28%;
+}
+
+.iphone{ 
+    width: 100%;
+    height: 200vh;
+    color: white;
+}
+.photo img{
+    width: 45%; 
+    height: 600px;
+    display: flex;
+    position: sticky;
+    top: 45%;
+    left: 28%;
+
+}
+.second { 
+    color: black;
+    width: 100%;
+    height: 800px;
+    background-color: white;
+}
+
+.contaner{ 
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+.banner {  
+    background-color: black;
+    width: 250px;
+    margin-top: 10px;
+    padding: 80px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+
+.banner img{ 
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+.hero {  
+    background-color: pink;
+    width: 250px;
+    margin-top: 10px;
+    padding: 80px;
+    color: black;
+    text-align: center;
+    display: inline-block;
+}
+
+.hero img{ 
+    width: 200px;
+    height: 200px;
+}
+
+.picture { 
+    background-color: palegreen;
+    width: 250px;
+    margin-top: 10px;
+    padding: 80px;
+    color: black;
+    text-align: center;
+    display: inline-block;
+} 
+.picture img{ 
+    width: 200px;
+    height: 200px;
+}
+
+.era{ 
+    width: 100%;
+    height: 100vh;
+    background-image: url(photo.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.wrappers{
+    display: flex; 
+    max-height: 1120px;
+    border: 1px solid #ddd;
+}
+.wrapper ::-webkit-scrollbar{ 
+    width: 0;
+}
+.wrappers .item{ 
+    min-width: 400px;
+    height: 400px;
+    line-height: 110px;
+    text-align: center;
+    background-color: #ddd;
+    margin-right: 2px;
+}
+.wrappers .item img{ 
+    width: 400px;
+    height: 400px;
+    align-items: center;
+}
+
+.paragrafh { 
+    width: 100%;
+    height: 100vh;
+    background-image: url(frame_endframe__cmrqk0dczkgi_large.jpg);
+    background-repeat: no-repeat;
+    background-color:black;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.new span{ 
+    color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
